@@ -1,0 +1,124 @@
+
+    
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    font-size: x-large
+}
+ul li:hover{
+    border-bottom: 2px solid tomato;
+    cursor: pointer;
+    z-index: 50;
+    transition: all;
+}
+button{
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    background-color: transparent;
+}
+#hero_area_container{
+    background-color: rgb(5, 24, 5);
+    padding: 24px 80px;
+}
+#log img{
+    width: 200px;
+    height: 70px;
+}
+header{
+    background-color: rgb(5, 24, 5);
+}
+li{
+    color: white;
+}
+#hero_area{
+    background-color: rgb(5, 24, 5);
+    height: 100vh;
+}
+#hero_area p{
+    color: rgb(190, 190, 180);
+}
+#hero_area h1{
+    color: tomato;
+    font-size: 80px;
+    font-weight: 900;
+}
+#hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    top: 20%;
+
+position: absolute;
+z-index: 20;
+}
+#my_Hero_areaImage{
+    position: absolute;
+    z-index: 10;
+    left: 60%;
+    width: 500px;
+    bottom: 0%;
+}
+#number_button{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+.heading1{
+    color: #1F2521;
+    font-size: 60px;
+    font-weight: 900;
+}
+.my_paragraph{
+    color: #A1A1A3;
+}
+.card{
+    background-color: #F6F6F6;
+    padding: 24px;
+    border-radius: 8px;
+}
+.irfst_three_slide{
+    display: flex;
+    gap: 32px;
+}
+#Services{
+    padding: 24px 80px;
+}
+
+.cardscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card h3{
+    font-weight: 900;
+    color: #1F2521;
+}
+
+.card p{
+    font-weight: 200;
+    color: #1F2521;
+    color: #A1A1A3;
+}
+.heading2{
+    color: #1F2521;
+    font-size: 60px;
+    font-weight: 900;
+}
+.paragraph{
+    color: #A1A1A3;
+    font-weight: 200;
+}
