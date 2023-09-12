@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
     
 header{
     display: flex;
@@ -6,17 +8,22 @@ header{
     align-items: center;
 }
 ul{
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 8px;
+}
+ul li{
     list-style-type: none;
-    font-size: x-large
+
 }
-ul li:hover{
-    border-bottom: 2px solid tomato;
-    cursor: pointer;
-    z-index: 50;
-    transition: all;
+a{
+    text-decoration:none;
+    color: #F6F6F6;
+    font-size: 16px;
 }
+a:hover{
+    color:tomato;;
+}
+
 button{
     font-weight: 700;
     color: white;
@@ -93,7 +100,7 @@ z-index: 20;
     display: flex;
     gap: 32px;
 }
-#Services{
+#Services,#About_me,#contact{
     padding: 24px 80px;
 }
 
@@ -121,4 +128,45 @@ z-index: 20;
 .paragraph{
     color: #A1A1A3;
     font-weight: 200;
+}
+#About_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#my_pic{
+    width: 500px; 
+    height: 400px;
+}
+#about_me_content{
+    display: flex;
+    gap: 32px;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.my_input{
+    padding: 24px 16px;
+    width: 500px;
+    border-radius: 9px;
+}
+#helo{
+    display: flex;
+    flex-direction: column;
+}
+.send_button{
+    background-color: red;
+    width: 530px;
+}
+footer{
+    display: flex;
+    background-color: #727171;
+    justify-content: space-between;
+    padding: 40px 80px;
+    align-items: center;
+}
+#icons_contain{
+    display: flex;
+    gap: 32px;
 }
